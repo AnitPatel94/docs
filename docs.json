@@ -1,19 +1,8 @@
-{
-  "name": "My API Docs",
-  "favicon": "/favicon.ico",
-  "logo": "/logo.png",
-  "navigation": [
+"navigation": {
+  "tabs": [
     {
-      "group": "API Reference",
-      "openapi": "openapi.yaml"       // or use "api-reference/" for MDX
+      "tab": "API Reference",
+      "openapi": "/path/to/openapi.json"
     }
-  ],
-  "api": {
-    "playground": {
-      "display": "interactive"
-    },
-    "examples": {
-      "languages": ["curl", "python", "javascript"]
-    }
-  }
+  ]
 }
